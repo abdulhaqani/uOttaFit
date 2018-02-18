@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abdul.uottafit_frontpage.settingsActivity"
+    android:background="#dc0b0b"
+    >
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_settings"
+        android:textColor="#f9f7eb"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="79dp"
+
+        />
+
+    <!--&lt;!&ndash;Intensity&ndash;&gt;-->
+    <!--<Button-->
+        <!--android:id="@+id/buttonIntensity"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/textView4"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="19dp"-->
+        <!--android:text="@string/Intensity"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:background="#000000"-->
+        <!--android:clickable="true"-->
+        <!--android:focusable="true"-->
+        <!--android:defaultFocusHighlightEnabled="true"-->
+        <!--android:onClick="onIntensityButtonClick"-->
+        <!--android:minWidth="300dp"-->
+
+        <!--/>-->
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="24dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:text="@string/Intensity"
+        android:textColor="#ffffff" />
+    <!--Exersizes-->
+    <Button
+        android:id="@+id/buttonExercises"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/Exercises"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:clickable="true"
+        android:focusable="true"
+        android:defaultFocusHighlightEnabled="true"
+        android:onClick="onExercisesButtonClick"
+        android:minWidth="300dp"
+
+        />
+    <!--<Spinner-->
+        <!--android:id="@+id/spinner2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/spinner1"-->
+        <!--android:layout_marginTop="24dp"-->
+        <!--android:background="@android:drawable/btn_dropdown"-->
+        <!--android:spinnerMode="dropdown"-->
+        <!--android:text="@string/Exercises"-->
+        <!--android:textColor="#ffffff" />-->
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="24dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:text="@string/Intervals"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

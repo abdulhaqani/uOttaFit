@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.abdul.uottafit_frontpage.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+<!--Quick Start text-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Quick_Start"
+        android:textColor="#f9f7eb"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="79dp"
+
+        />
+
+
+    <!--Time input-->
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView2"
+        android:hint="Enter time (minutes)"
+        android:textColorHint="#ffffff"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="154dp"
+        android:maxWidth="180dp"
+        android:textColor="#ffffff"
+
+        />
+    <!--Start button-->
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="START!"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:clickable="true"
+        android:onClick="onStartButtonClick"
+        android:defaultFocusHighlightEnabled="true"
+        android:minWidth="350dp"
+        android:minHeight="100dp"
+        android:textSize="50dp"
+
+
+        />
+
+    <!--Settings button-->
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Settings"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:defaultFocusHighlightEnabled="true"
+        android:minWidth="300dp"
+        android:clickable="true"
+        android:onClick="onSettingsButtonClick"
+
+
+        />
+
+    <!--Personalization button-->
+
+
+</RelativeLayout>

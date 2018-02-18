@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">uOttaFit_Frontpage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Quick_Start">Quick Start!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Intensity">Intensity</string>
+    <string name="Intervals">Intervals</string>
+    <string name="Exercises">Exercises</string>
+    <string name="Beginner">Beginner</string>
+    <string name="Intermediate">Intermediate</string>
+    <string name="Pushups">Pushups</string>
+    <string name="Situps">Situps</string>
+    <string name="Burpees">Burpees</string>
+    <string name="Squats">Squats</string>
+    <string name="Plank">Plank</string>
+    <string name="Squatjump">Squat-jump</string>
+    <string name="singleLegDeadLifts">single Leg Dead Lifts</string>
+    <string name="JumpingJacks">JumpingJacks</string>
+    <string name="Advanced">Advanced</string>
+
+
+</resources>
